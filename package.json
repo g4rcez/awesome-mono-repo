@@ -1,0 +1,14 @@
+{
+    "name": "monoRepoAwesome",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "scripts": {
+        "start:web": "yarn workspace web start",
+        "start:mobile": "yarn workspace mobile start",
+        "install": "yarn"
+    }
+}
